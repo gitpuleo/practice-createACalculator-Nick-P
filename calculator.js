@@ -37,8 +37,10 @@ const calculatorProgram = {
         return Math.round(Math.random() * 10);
     },    
 
-    customRound: function(num1, num2) {
 
+    //How to restrict num1 input to only numbers that will produce desired decimal place numbers? 
+    customRound: function(num1, num2) {
+        return Math.round(num2) * (num1);
 
     }
 
